@@ -5,7 +5,7 @@ A C++ implementation of a Fibonacci Heap, a priority queue data structure design
 | Operation | Time complexity |
 | --------- | --------------- |
 | Extract min | O(logN) Amortized |
-| Delete | O(logN) |
+| Delete | O(N * logN) |
 | Decrease key | O(1) |
 | Insert | O(1) |
 | Find min | O(1) |
